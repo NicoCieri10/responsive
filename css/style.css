@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.row-1 {
+    background: black;
+    width: 100%;
+    height: 70px;
+    padding: 20px;
+}
+
+.box-1_1,
+.box-1_2 {
+    display: inline-block;
+    background: rgb(45, 139, 87);
+    width: 40%;
+    height: 100%;
+    margin-right: 3px;
+}
+
+.row-2 {
+    background: rgb(148, 148, 148);
+    width: 100%;
+    height: 70px;
+    padding: 15px;
+}
+
+.box-2_1 {
+    display: inline-block;
+    background: rgb(244, 163, 97);
+    width: 100%;
+    height: 100%;
+}
+
+.row-3 {
+    background: black;
+    width: 100%;
+    height: 200px;
+    padding: 30px 15px;
+}
+
+.box-3_1,
+.box-3_2,
+.box-3_3 {
+    background: rgb(255, 244, 238);
+    width: 100%;
+    height: 24%;
+    margin: 10px 0px;
+}
+
+@media (min-width: 768px) {
+    .row-3 {
+        padding: 20px 15px;
+    }
+
+    .box-3_1,
+    .box-3_2,
+    .box-3_3 {
+        background: rgb(184, 134, 11);
+        height: 27%;
+        margin: 8px 0px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .row-1 {
+        height: 170px;
+        padding: 15px 20px;
+    }
+
+    .box-1_1,
+    .box-1_2 {
+        display: block;
+        background: rgb(115, 0, 254);
+        margin: 25px 0px;
+        width: 100%;
+        height: 22%;
+    }
+
+    .row-2 {
+        height: 140px;
+        padding: 20px 25px;
+    }
+
+    .box-2_1,
+    .box-2_2,
+    .box-2_3 {
+        display: inline-block;
+        width: 10%;
+        height: 100%;
+        background: rgb(178, 34, 34);
+        margin-right: 40px;
+    }
+
+    .row-3 {
+        height: 100px;
+        padding: 20px;
+    }
+
+    .box-3_1,
+    .box-3_2,
+    .box-3_3 {
+        display: inline-block;
+        background: rgb(184, 134, 11);
+        height: 80%;
+        width: 30%;
+        margin: 8px 0px;
+    }
+
+}
